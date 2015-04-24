@@ -1,0 +1,402 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>My journey of learning origami.</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href='https://fonts.googleapis.com/css?family=Muli' rel='stylesheet' type='text/css'>
+    <link rel="shortcut icon" type="image/x-icon"  href="images/favicon.png">
+    <script src="https://code.jquery.com/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<header class="row" style="display:block ;">
+			<div class="col-sm-3 logo"><img src="images/logo.png" alt="The origami logo. "></div>
+			<!--<div class="col-sm-9 tagline"><img src="images/tagline.png" alt="tagline"></div>-->
+		</header>
+		<div class="row">
+			<nav class="navbar navbar-default" role="navigation">
+			  <div class="container-fluid">
+			    <!-- Brand and toggle get grouped for better mobile display -->
+			    <div class="navbar-header">
+			      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar">
+			        <span class="sr-only">Toggle navigation</span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			        <span class="icon-bar"></span>
+			      </button>
+			    </div>
+
+			    <!-- Collect the nav links, forms, and other content for toggling -->
+			    <div class="collapse navbar-collapse" id="navbar">
+			    <ul class="nav navbar-nav">
+			        <li ><a href="index.html">Home</a></li>
+			        <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                                    Categories <span class="caret"></span></a>
+                              <ul class="dropdown-menu" role="menu">
+                                <li><a href="animals.html">Animals</a></li>
+                                <li><a href="insects.html">Insects</a></li>
+                                <li><a href="mythecalcreatures.html">Mythecal Creatures</a></li>
+                                <li><a href="miscellanious.html">Miscellanious</a></li>                        
+                              </ul>
+                        </li>  
+			       <li><a href="Contact.html">About me</a></li>
+			      </ul>
+			    </div><!-- end navbar-collapse -->
+			  </div><!-- end container-fluid -->
+			</nav>
+		</div>
+		<div class="row">
+			<ul>
+            <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#bear" data-toggle="modal"><img src="images/bear-thumb.jpg" alt="bear."></a>
+                    <div class="caption">
+                        <h3>Bear</h3>
+                        <p><a href="#bear" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                     <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#cormorant" data-toggle="modal"><img src="images/cormorant-thumb.jpg" alt="cormorant."></a>
+                    <div class="caption">
+                        <h3>Cormorant</h3>
+                        <p><a href="#cormorant" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+				
+                    <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#dinosour" data-toggle="modal"><img src="images/dinosour-thumb.jpg" alt="dinosour."></a>
+                    <div class="caption">
+                        <h3>Dinosour</h3>
+                        <p><a href="#dinosour" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                       <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#dog" data-toggle="modal"><img src="images/dog-thumb.jpg" alt="dog."></a>
+                    <div class="caption">
+                        <h3>Sheep Dog</h3>
+                        <p><a href="#dog" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                    <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#elephant" data-toggle="modal"><img src="images/elephant-thumb.jpg" alt="elephant."></a>
+                    <div class="caption">
+                        <h3>Elephant</h3>
+                        <p><a href="#elephant" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                    <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#fawn" data-toggle="modal"><img src="images/fawn-thumb.jpg" alt="fawn."></a>
+                    <div class="caption">
+                        <h3>Fawn</h3>
+                        <p><a href="#fawn" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                    <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#frogs" data-toggle="modal"><img src="images/frogs-thumb.jpg" alt="frogs."></a>
+                    <div class="caption">
+                        <h3>Frogs</h3>
+                        <p><a href="#frogs" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+				
+                <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#fox" data-toggle="modal"><img src="images/fox-thumb.jpg" alt="fox."></a>
+                    <div class="caption">
+                        <h3>Fox</h3>
+                        <p><a href="#fox" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                       </li>
+                     <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#hedgehog" data-toggle="modal"><img src="images/hedge-hog-thumb.jpg" alt="whale."></a>
+                    <div class="caption">
+                        <h3>Hedge-hog</h3>
+                        <p><a href="#hedgehog" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                     <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#whale" data-toggle="modal"><img src="images/Whale-thumb.jpg" alt="whale."></a>
+                    <div class="caption">
+                        <h3>Humpback Whale</h3>
+                        <p><a href="#whale" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                    <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#fish" data-toggle="modal"><img src="images/fish-thumb.jpg" alt="fish."></a>
+                    <div class="caption">
+                        <h3>Koi Fish</h3>
+                        <p><a href="#fish" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                 
+                <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#mouse" data-toggle="modal"><img src="images/mouse-thumb.jpg" alt="mouse."></a>
+                    <div class="caption">
+                        <h3>Rat</h3>
+                        <p><a href="#mouse" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+               
+               <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#rabbit" data-toggle="modal"><img src="images/rabbit-thumb.jpg" alt="rabbit."></a>
+                    <div class="caption">
+                        <h3>Rabbit</h3>
+                        <p><a href="#rabbit" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+                    <li class="thumbnail col-sm-3 col-xs-6">
+                <a href="#rabbit-green" data-toggle="modal"><img src="images/greenrabbit-thumb.jpg" alt="rabbit."></a>
+                    <div class="caption">
+                        <h3>Rabbit</h3>
+                        <p><a href="#rabbit-green" data-toggle="modal" class="btn btn-primary" role="button">Read more</a></p>
+                    </div>
+                    </li>
+			</ul>
+		</div>
+        <hr>
+		<footer class="row siteinfo">
+			<p>Site by Nutan Mandale.
+		</footer>
+	</div><!-- end container -->
+
+    <!-- modal windows -->
+    <div id="bear" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Bear</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/bear.jpg" alt="paper-bear." class="img-responsive center-block">This is the grizzly bear designed by Queintin Trollip. Diagrams can be found in the book "Origami sequence". I used a 35*35cm paper but 50*50cm or more would be better.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="dinosour" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Dinosour (T-Rex)</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/dinosour.jpg" alt="paper-Dinosour." class="img-responsive center-block">This is the T-Rex designed by Kade Chan. I used a printer paper to fold this model.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div id="elephant" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Elephant</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/elephant.jpg" alt="paper-elephant." class="img-responsive center-block">This is the sevillia elephant designed by Joseph Wu. He highly recomends kami paper, but I used printer paper which is not that great for this model.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fawn" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Fawn</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/fawn.jpg" alt="paper-fawn." class="img-responsive center-block">This fawn is designed by Stephen Weiss. It is a very elegant model of intermediate difficulty. I used 20*20cm sheet of printer paper.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="hedgehog" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Hedge hog</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/hedge-hog.jpg" alt="paper-hedge-hog." class="img-responsive center-block">This hedgehog is deigned by Paulius Mielinis. I used 30*30 cm copper tissue foil paper.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div id="frogs" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Tree Frogs</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/frogs.jpg" alt="paper-frogs." class="img-responsive center-block">The tree frog, designed by Robert Lang, is a very detailed model with toes, toe pads and eyes. I experimented with printer paper, then used green tissue foil(30*30cm).</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+         <div id="rabbit-green" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Easter Rabbit</h3>
+                    </div>
+                    <div class="modal-body">
+                    <p><img src="images/greenrabbit.jpg" alt="paper-rabbit." class="img-responsive center-block">This is the rabbit designed by Jun Maekawa. I used 15*15cm kami paper to fold this model.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+         <div id="cormorant" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Coromarant</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/cormorant.jpg" alt="paper-cormorant." class="img-responsive center-block">This  coromarant is designed by Michael LaFosse. Diagrams can be found in the book "Origami Art". I used normal printer paper for this model.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fish" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Scaled Fish</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/fish.jpg" alt="paper-fish" class="img-responsive center-block">This is the scaled fish designed by JoNakashima based on Davorvinko's fish. I used a printer paper cut into a rectangle to make to make this model.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+       <div id="dog" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Dog</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/dog.jpg" alt="paper-dog" class="img-responsive center-block">This is the sheep dog designed by Seth Friedman. You can find an instructional video on his <a href="https://www.youtube.com/watch?v=64h3o0gO9Lo" target="_blank">youtube channel</a> along with few other beautiful models. I used a normal A4 printer paper but a larger sheet is highly recommended.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="fox" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Fox</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/fox.jpg" alt="paper-fox" class="img-responsive center-block">This model is designed by Hoang Tien Quyet. I used a square sheet of paper with the side length of 30 cm. I used a coffee tissue foil but wet folding with water color paper will have better results.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="mouse" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Rat</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/Mouse.jpg" alt="paper-mouse" class="img-responsive center-block">This is the rat designed by Eric Joisel. I used blue copy paper for this model but really most papers work for this model.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="whale" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Humpback Whale</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/Whale.jpg" alt="paper-whale" class="img-responsive center-block">This humpback whale is designed by Michael Lafosse. Diagrams can be found in the book "Origami Arts". I used a 15*15 cm kami paper.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="rabbit" class="modal fade" tabindex="-1">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <button type="button" class="close glyphicon glyphicon-remove" data-dismiss="modal"></button>
+                        <h3 class="modal-title">Rabbit</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p><img src="images/rabbit.jpg" alt="paper-rabbit" class="img-responsive center-block">This is the rabbit designed by Hsi-Min Tai. This is the complex model and I used 15*15 cm kami paper.</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn btn-primary" data-dismiss="modal">Close</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+       
+    
+<!-- javascript
+     <script src="js/jquery-1.11.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>-->
+</body>
+</html>
